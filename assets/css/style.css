@@ -101,35 +101,64 @@ li {
   margin: 0 auto;
 }
 
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 /*=================================
   main styling starts here
 =================================*/
 
+.random-choice-picker {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #2b88f0;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
 
+.random-choice-picker .wrapper { width: 500px; }
+
+h1, h2 {
+  margin: 10px 0 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {  margin: 0 0 20px;}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  margin: 0 0 20px;
+  display: block;
+  font-size: 16px;
+}
+
+.tag {
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 0 5px 10px 0;
+  display: inline-block;
+  background-color: #f0932b;
+  color: #fff;
+  font-size: 14px;
+}
+
+.highlight { background-color: #273c75; }
 
 /*=================================
   main styling ends here
 =================================*/
 
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
